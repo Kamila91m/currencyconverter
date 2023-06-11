@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
